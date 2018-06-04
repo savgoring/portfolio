@@ -1,0 +1,1162 @@
+@font-face {
+    font-family: "Steelfish";
+    src: url(steelfish.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-Light";
+    src: url('Oswald-Light.ttf');
+}
+
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url('Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url('coolvetica.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    margin-right: 5vw;
+    font-family: 'Oxygen-Bold';
+    font-size: 1.4vw;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    color: #898989;
+    margin: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+#intro {
+    width: 100vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: #898989;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+    letter-spacing: .1vw;
+    font-family: 'coolvetica';
+    font-stretch: ultra-condensed;
+    width: 50vw;
+}
+
+#para {
+    margin-top: 3vw;
+}
+
+#changingword {
+    
+    color: #f25c64;
+    font-size: 2vw;
+}
+
+#hello {
+    color: #f25c64;
+    font-size: 6vw;
+    font-family: 'coolvetica';
+}
+
+#logo {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2vw;
+}
+
+button:focus {outline:0;}
+
+.category {
+    border: none;
+    background: none;
+    color: #898989;
+    font-family: 'Oxygen-Bold';
+    font-size: 1vw;
+    display: flex;
+    margin: 1vw;
+    
+}
+
+.category:hover {
+    border-bottom: 2.5px solid #f25c64;
+}
+
+#ctgryContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 2vw;
+    
+}
+
+#footer {
+    
+    width: 100vw;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Oxygen-Light";
+    color: #898989;
+    
+    
+}
+
+
+
+/********** ABOUT *************/
+
+#container {
+    width: 78vw;
+    position: relative;
+    margin-top: 2vw;
+}
+
+#subtitle {
+    color: #f25c64;
+    text-align: left;
+    font-size: 1.5vw;
+    letter-spacing: .01rem;
+    font-family: 'coolvetica';
+    margin-top: 1vw;
+}
+
+#containerColumn {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#containerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vw;
+    
+}
+
+#aIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+
+#socialIcons {
+    margin-top: 1.2vw;
+    
+}
+
+#aPortrait {
+    margin: 5vw;
+    width: 28vw;
+    height: 48vw;
+    background-image: url(sav1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+#bodyText {
+    font-size: 1.4vw;
+    text-align: left;
+    color: #898989;
+    font-family: "Oxygen-Light";
+    margin-top: 1.2vw;
+}
+
+
+i {
+    color: #898989;
+    font-size: 2.4rem;
+}
+
+.iwrapper {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: .5vw;
+        
+}
+
+.progName {
+    font-size: 1.2vw;
+    font-family: 'Oxygen-Light';
+    text-align: center;
+    color: #898989;
+    
+}
+
+
+/***** PORTFOLIO ITEMS *******/
+
+
+#portfolioGrid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.portfolioItem {
+    background-color: white;
+    width: 60vw;
+    height: 20vw;
+    display: flex;
+    margin: .5vw;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: .9rem;
+     -webkit-box-shadow: 0px 0px 8px 0px rgba(100, 100, 100, 0.50);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(100, 100, 100, 0.50);
+    box-shadow: 0px 0px 8px 0px rgba(100, 100, 100, 0.50);
+     
+}
+
+
+
+#portfolioTitle {
+    font-size: 1.8vw;
+    font-family: 'coolvetica';
+    letter-spacing: .05vw;
+    color: #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#portfolioRole {
+    font-size: 1.2vw;
+        letter-spacing: 0;
+     font-family: "Oxygen-Light";
+
+    
+}
+
+.portfolioBtn {
+    display: flex;
+    color:  #f25c64;
+    width: 11vw;
+    font-size: 1.2vw;
+    border-style: none;
+    font-family: "Oxygen-Light";
+    justify-content: space-between;
+}
+
+#portfolioDesc {
+    font-size: 1.2vw;
+    width: 25vw;
+    font-family: "Oxygen-Light";
+    
+}
+
+
+img#portfolioImg {
+    opacity: 0.75;
+    filter: alpha(opacity=60);
+}
+
+
+img#portfolioImg:hover {
+    
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.portfolioImg {
+    width: 23vw;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center; 
+    
+}
+
+#projIntro {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#banner {
+    width: 80vw;
+    height: 14vw;
+    margin-top: 15vh;
+}
+
+#bannerItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: -5vw;
+    
+    
+}
+#projImg {
+    width: 28vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+}
+
+#videoContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+
+#pVideo {
+    width: 500px;
+}
+
+#projTitle {
+    font-size:3.8vw;
+    font-family: 'Oxygen-Bold';
+    color: white;
+    
+}
+
+#projcontainer {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#projDesc {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    flex-direction: row;
+    font-family: "Oxygen-Light";
+    letter-spacing: 0.05vw;
+    font-size: 1.1vw;
+    
+    
+}
+
+#video {
+    width: 1500;
+    height: 600;
+    
+}
+
+#mockupsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+#projOview {
+    width: 40vw;
+    margin-right: 8vw;
+    
+}
+#rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+#mockups {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75vw;
+}
+
+.UI {
+    
+    display: block;
+}
+
+#square {
+    width: 20vw;
+    height: 40vw;
+    margin: 2vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+#logoSquare {
+    width: 37vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+#ipadSquare {
+    width: 37.5vw;
+    height: 45vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+#poster {
+    width: 50vw;
+    height: 70vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#laptopmockups {
+    display: flex;
+    flex-direction: column;
+}
+
+#rectangle {
+    width: 70vw;
+    height: 40vw;
+    margin: 1.2vw;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+}
+
+
+@media (min-width: 1281px) {
+  
+     #pVideo {
+    width: 1200px;
+}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+    #pVideo {
+    width: 950px;
+}
+    
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+          #intro {
+            width: 100vw;
+            height: 50vw;
+        }
+        
+                #title {
+            font-size: 2.8vw;
+            width: 80vw;
+            
+        }
+        
+    #hello {
+
+    font-size: 7vw;
+   
+}
+    
+    #para {
+        margin-top: 3vw;
+        
+    }
+        
+    #changingword {
+        
+        font-size: 2.8vw;
+        
+    }
+    
+        .category {
+            font-size: 2vw;
+          
+        }
+    
+    .navigation {
+        font-size: 2.5vw;
+        
+    }
+    
+    #logo {
+        width: 5vw;
+    height: 5vw;
+    }
+    
+        
+        .portfolioItem {
+            width: 70vw;
+            height: 30vw;
+            margin: 1.5vw;
+            justify-content: space-between;
+            
+        }
+        
+        .portfolioImg {
+            width: 25vw;
+            
+        }
+        
+        #portfolioTitle {
+            font-size: 3vw;
+            width: 38vw;
+            
+        }
+        
+        #portfolioRole {
+            
+            font-size: 2vw;
+        }
+        
+        .portfolioBtn {
+            font-size: 2vw;
+            width: 15vw;
+        }
+
+        #portfolioDesc {
+            margin-top: 1vw;
+            font-size: 2vw;
+             width: 37vw;
+            
+        }
+    
+    
+    
+    
+    
+    /**** project Pages ***/
+    
+    #projDesc {
+            width: 90vw;
+            
+        }
+        
+    #projOview {
+    width: 75vw;
+    font-size: 1.5vw;
+    margin-bottom: -5vw;
+    
+}
+#rightContainer {
+    width: 40vw;
+    font-size: 1.5vw;
+}
+        
+#banner {
+    width: 90vw;
+    height: 17vw;
+    margin-top: 10vh;
+}
+
+#bannerItems {
+    margin-top: -4.5vw;
+    
+    
+}
+#projImg {
+    width: 28vw;
+    height: 26vw;
+    
+}
+
+#projTitle {
+    
+    font-size: 4.2vw;
+    
+}
+        
+    #subtitle {
+        font-size: 3.4vw;
+            
+        }
+        
+        #projDesc {
+    width: 85vw;
+    margin-top: 6vh;
+    
+    
+}
+        
+        #square {
+    width: 35vw;
+    height: 65vw;
+    margin: 5vw;
+        
+        
+}
+        
+        #mockups {
+            width: 90vw;
+            
+        }
+    
+    
+   /**** about page ***/
+
+
+
+#subtitle {
+    font-size: 2.3vw;
+}
+
+#containerColumn {
+    width: 55vw;
+}
+
+#containerRow {
+    margin-top: 5vw;
+    
+}
+
+#aIcons {
+    width: 40vw;
+}
+
+#socialIcons {
+    margin-top: 1.2vw;
+    
+}
+
+#aPortrait {
+    margin: 5vw;
+    width: 35vw;
+    height: 55vw;
+}
+
+#bodyText {
+    
+    font-size: 1.8vw;
+    margin-top: 1vw;
+    
+}
+
+
+i {
+    font-size: 3.8vw;
+}
+
+.iwrapper {
+        margin: .5vw;
+        
+}
+
+.progName {
+    font-size: 1.6vw;
+    
+}
+    
+    
+#pVideo {
+    width: 800px;
+}
+    
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+#pVideo {
+    width: 650px;
+}
+    
+            
+        .navigation {
+    font-size: 3vw;
+    
+}
+
+.navigation a {
+    margin: 3vw;
+}
+        
+        #logo {
+    width: 5.5vw;
+    height: 5.5vw;
+    left: 7;
+    top: 10;
+}
+        
+          #intro {
+            
+            height: 80vw;
+        }
+        
+               #title {
+            font-size: 3.5vw;
+            width: 90vw;
+            
+        }
+        
+    #hello {
+
+    font-size: 8vw;
+   
+}
+    
+    #para {
+        margin-top: 3vw;
+        
+    }
+        
+    #changingword {
+        
+        font-size: 4vw;
+        
+    }
+    
+    
+        .category {
+            font-size: 3vw;
+          
+        }
+        
+      
+        
+        .portfolioItem {
+            width: 75vw;
+            height: 38vw;
+            margin: 1vw;
+            justify-content: space-between;
+            
+        }
+        
+        .portfolioImg {
+            width: 33vw;
+            
+        }
+        
+        #portfolioTitle {
+            font-size: 3.5vw;
+            width: 38vw;
+            
+        }
+        
+        #portfolioRole {
+            
+            font-size: 2.5vw;
+        }
+        
+        .portfolioBtn {
+            font-size: 3vw;
+            width: 22vw;
+        }
+
+        #portfolioDesc {
+            margin-top: .8vw;
+            font-size: 2.6vw;
+             width: 37vw;
+            
+        }
+        
+          #containerRow {
+            flex-direction: column;
+            
+        }
+        
+        
+        /*** project items ***/
+           
+        #projDesc {
+            width: 90vw;
+            flex-direction: column;
+            
+        }
+        
+    #projOview {
+    width: 86vw;
+    font-size: 2.25vw;
+    margin-bottom: -5vw;
+    
+}
+#rightContainer {
+    width: 80vw;
+    font-size: 2.25vw;
+}
+        
+#banner {
+    width: 90vw;
+    height: 20vw;
+    margin-top: 10vh;
+}
+
+#bannerItems {
+    margin-top: -5.5vw;
+    
+    
+}
+#projImg {
+    width: 34vw;
+    height: 32vw;
+    
+}
+
+#projTitle {
+    font-size: 4.8vw;
+    
+}
+        
+    #subtitle {
+        font-size: 2.8vw;
+            
+        }
+        
+        #projDesc {
+    width: 85vw;
+    margin-top: 6vh;
+    
+    
+}
+        
+        #square {
+    width: 35vw;
+    height: 65vw;
+    margin: 5vw;
+        
+        
+}
+        
+        #mockups {
+            width: 90vw;
+            
+        }
+        
+        
+         /**** about page *****/
+        
+        #aPortrait {
+            width: 60vw;
+            height: 90vw;
+            
+        }
+        
+          #containerColumn {
+            width: 70vw;
+        }
+        
+        #containerRow {
+            flex-direction: column;
+            
+        }
+        
+        #aIcons {
+    margin-top: 1.5vw;
+    width: 70vw;
+    
+}
+    
+ 
+        
+        i {
+    font-size: 2.2rem;
+}
+        
+        #bodyText {
+    
+    font-size: 3.1vw;
+   margin-bottom: 4vw;
+    
+}
+        
+        .progName {
+    font-size: 2.6vw;
+    
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+        /*** HOMEPAGE ***/
+        
+        
+        .navigation {
+    font-size: 4vw;
+    
+}
+
+.navigation a {
+    margin: 3vw;
+}
+        
+        #logo {
+    width: 7vw;
+    height: 7vw;
+    left: 7;
+    top: 10;
+}
+        
+        #intro {
+            
+            height: 80vw;
+        }
+        
+        #title {
+            font-size: 3.5vw;
+            width: 90vw;
+            
+        }
+        
+    #hello {
+
+    font-size: 8vw;
+   
+}
+    
+    #para {
+        margin-top: 3vw;
+        
+    }
+        
+    #changingword {
+        
+        font-size: 4vw;
+        
+    }
+    
+    
+        .category {
+            font-size: 3vw;
+          
+        }
+        
+        
+        
+        .portfolioItem {
+            width: 78vw;
+            height: 80vw;
+            margin: 1.5vw;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .portfolioImg {
+            width: 50vw;
+            height: 60vw;
+            
+        }
+        
+        #portfolioTitle {
+            font-size: 4.5vw;
+            width: 70vw;
+            height: 25vw;
+            align-items: center;
+            
+        }
+        
+        #portfolioRole {
+            
+            font-size: 3.5vw;
+        }
+        
+        .portfolioBtn {
+            font-size: 3.5vw;
+            width: 32vw;
+        }
+        
+        #portfolioDesc {
+            display: none;
+            
+        }
+        
+        /**** about page *****/
+        
+           #aPortrait {
+            width: 70vw;
+            height: 100vw;
+            
+        }
+        
+          #containerColumn {
+            width: 75vw;
+        }
+        
+        #containerRow {
+            flex-direction: column;
+            
+        }
+        
+        #aIcons {
+    flex-wrap: wrap;
+    width: 80vw;
+    
+}
+        
+        i {
+    font-size: 2rem;
+
+}
+    .iwrapper {
+        margin: 1vw;
+        
+    }
+        
+        #bodyText {
+    
+    font-size: 4vw;
+   margin-bottom: 5vw;
+    
+}
+        
+        .progName {
+    font-size: 3vw;
+    
+}
+    
+    /*** project items ***/
+        
+        #projDesc {
+            flex-direction: column;
+            width: 85vw;
+            margin-top: 6vh;
+            
+            
+        }
+        
+    #projOview {
+    width: 90vw;
+    font-size: 3.1vw;
+    margin-bottom: -5vw;
+    
+}
+#rightContainer {
+    width: 90vw;
+    font-size: 3.1vw;
+}
+        
+#banner {
+    width: 92vw;
+    height: 25vw;
+    margin-top: 10vh;
+}
+
+#bannerItems {
+    margin-top: -15vw;
+    
+    
+}
+#projImg {
+    width: 40vw;
+    height: 56vw;
+    
+}
+
+#projTitle {
+    font-size: 5.2vw;
+    
+}
+        
+    #subtitle {
+        font-size: 4.5vw;
+            
+        }
+             
+        #square {
+    width: 120vw;
+    height: 120vw;
+    margin: 5vw;
+        
+        
+}
+        
+        #mockups {
+            margin-top: 5vw;
+            width: 100vw;
+            
+        }
+    
+    #logoSquare {
+       width: 90vw;
+    height: 40vw;
+    }
+    
+    #ipadSquare {
+        width: 95vw;
+        height: 60vw;
+        
+    }
+    
+
+    #rectangle {
+        width: 90vw;
+        height: 50vw;
+        
+    }
+    
+    #poster {
+    width: 95vw;
+    height: 100vw;
+        
+    }
+    
+  
+}
