@@ -1,16 +1,4 @@
- (function(){
-      var words = [
-          'graphic designer',
-          'web developer',
-          'UI/UX designer'
-          ], i = 0;
-      setInterval(function(){
-          $('#changingword').fadeOut(function(){
-              $(this).html(words[i=(i+1)%words.length]).fadeIn();
-          });
-      }, 2500);
-        
-  })();
+
 
 
 $("#gDesign").click(function () {
