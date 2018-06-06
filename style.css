@@ -54,6 +54,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(imgs/bg.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
 }
 
 #title {
