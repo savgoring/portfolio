@@ -79,12 +79,12 @@ a {
 #changingword {
     
     color: #f25c64;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 #hello {
     color: #f25c64;
-    font-size: 6vw;
+    font-size: 4vw;
     font-family: 'coolvetica';
 }
 
@@ -267,7 +267,7 @@ i {
 
 
 #portfolioTitle {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-family: 'coolvetica';
     letter-spacing: .05vw;
     color: #898989;
@@ -513,18 +513,18 @@ img#portfolioImg:hover {
   
           #intro {
             width: 100vw;
-            height: 50vw;
+            height: 40vw;
         }
         
                 #title {
-            font-size: 2.8vw;
-            width: 80vw;
+            font-size: 2vw;
+            width: 75vw;
             
         }
         
     #hello {
 
-    font-size: 7vw;
+    font-size: 5vw;
    
 }
     
@@ -535,23 +535,23 @@ img#portfolioImg:hover {
         
     #changingword {
         
-        font-size: 2.8vw;
+        font-size: 2vw;
         
     }
     
         .category {
-            font-size: 2vw;
+            font-size: 1.5vw;
           
         }
     
     .navigation {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         
     }
     
     #logo {
-        width: 5vw;
-    height: 5vw;
+        width: 3vw;
+    height: 3vw;
     }
     
         
@@ -569,24 +569,24 @@ img#portfolioImg:hover {
         }
         
         #portfolioTitle {
-            font-size: 3vw;
+            font-size: 2.2vw;
             width: 38vw;
             
         }
         
         #portfolioRole {
             
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
         
         .portfolioBtn {
-            font-size: 2vw;
-            width: 15vw;
+            font-size: 1.7vw;
+            width: 17vw;
         }
 
         #portfolioDesc {
             margin-top: 1vw;
-            font-size: 2vw;
+            font-size: 1.8vw;
              width: 37vw;
             
         }
@@ -739,7 +739,7 @@ i {
     
             
         .navigation {
-    font-size: 3vw;
+    font-size: 2vw;
     
 }
 
@@ -748,26 +748,26 @@ i {
 }
         
         #logo {
-    width: 5.5vw;
-    height: 5.5vw;
+    width: 4vw;
+    height: 4vw;
     left: 7;
     top: 10;
 }
         
           #intro {
             
-            height: 80vw;
+            height: 60vw;
         }
         
                #title {
-            font-size: 3.5vw;
-            width: 90vw;
+            font-size: 2.5vw;
+            width: 85vw;
             
         }
         
     #hello {
 
-    font-size: 8vw;
+    font-size: 5vw;
    
 }
     
@@ -778,21 +778,21 @@ i {
         
     #changingword {
         
-        font-size: 4vw;
+        font-size: 2.5vw;
         
     }
     
     
         .category {
-            font-size: 3vw;
+            font-size: 2vw;
           
         }
         
       
         
         .portfolioItem {
-            width: 75vw;
-            height: 38vw;
+            width: 82vw;
+            height: 35vw;
             margin: 1vw;
             justify-content: space-between;
             
@@ -804,24 +804,24 @@ i {
         }
         
         #portfolioTitle {
-            font-size: 3.5vw;
+            font-size: 2.7vw;
             width: 38vw;
             
         }
         
         #portfolioRole {
             
-            font-size: 2.5vw;
+            font-size: 2vw;
         }
         
         .portfolioBtn {
-            font-size: 3vw;
-            width: 22vw;
+            font-size: 2vw;
+            width: 20vw;
         }
 
         #portfolioDesc {
             margin-top: .8vw;
-            font-size: 2.6vw;
+            font-size: 2vw;
              width: 37vw;
             
         }
