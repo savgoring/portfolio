@@ -56,7 +56,7 @@ a {
     align-items: center;
     background-image: url(imgs/bg.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -254,6 +254,16 @@ i {
      
 }
 
+.UI:hover {
+    transform: scale(1.05);
+    transition: ease-in-out .4s;
+}
+
+.GD:hover {
+    transform: scale(1.05);
+    transition: .4s;
+    transition-timing-function: ease-in-out
+}
 
 
 #portfolioTitle {
